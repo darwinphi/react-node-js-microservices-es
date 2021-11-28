@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-all-service": "(cd client && npm run start) & (cd posts && npm run start) & (cd comments && npm run start) & (cd moderation && npm run start) & (cd event-bus && npm run start)"
+    "start-all-service": "(cd client && npm run start) & (cd posts && npm run start) & (cd comments && npm run start) & (cd moderation && npm run start) & (cd event-bus && npm run start)",
+    "install-all": "(cd client && npm install) & (cd posts && npm install) & (cd comments && npm install) & (cd moderation && npm install) & (cd event-bus && npm install) && (cd query && npm install)"
   },
   "keywords": [],
   "author": "",
