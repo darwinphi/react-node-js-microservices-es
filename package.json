@@ -1,0 +1,12 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-all-service": "(cd client && npm run start) & (cd posts && npm run start) & (cd comments && npm run start) & (cd moderation && npm run start) & (cd event-bus && npm run start)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
