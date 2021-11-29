@@ -5,11 +5,11 @@ To install all dependencies run this from the root directory
 ```
 npm run install-all
 ```
-To run 
+To run
 ```
 npm run start-all-service
 ```
-To run then `Query service`
+To run the `Query service`
 ```
 cd query && npm start
 ```
